@@ -6,7 +6,7 @@ import com.showmetables.service.model.Database;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class DatabaseRequest {
 
-	Database dbInfo;
+	private Database dbInfo;
 
 	public DatabaseRequest() {
 		

@@ -19,6 +19,10 @@ import com.showmetables.service.json.VersionJSON;
 @Produces("application/json")
 public interface RequestManager {
 
+	@GET
+	@Path("/")
+	public BaseJSON index();
+	
 	@POST
 	@Path("/checkConnection/")
 	public BaseJSON checkConnection(DatabaseRequest request);

@@ -2,10 +2,10 @@ package com.showmetables.json.webrequest;
 
 public class QueryRequest extends DatabaseRequest{
 	
-	String sql;
-	int page;
-	int pageSize;
-	boolean handlePagination;
+	private String sql;
+	private int page;
+	private int pageSize;
+	private boolean handlePagination;
 
 	public QueryRequest() {
 		

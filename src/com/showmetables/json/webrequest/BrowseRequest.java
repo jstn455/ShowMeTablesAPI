@@ -5,19 +5,13 @@ import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 import com.showmetables.service.model.Condition;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class BrowseRequest extends DatabaseRequest{
-//	var tableName = autoSQL.tableName;
-//    var page = autoSQL.page;
-//    var pageSize = autoSQL.pageSize;
-//    var sortOrder = autoSQL.sortOrder;
-//    var sortColumn = autoSQL.sortColumn;
-//    var condition = autoSQL.setCondition;
 	
-	String tableName;
-	int page;
-	int pageSize;
-	String sortOrder;
-	String sortColumn;
-	Condition conditions;
+	private String tableName;
+	private int page;
+	private int pageSize;
+	private String sortOrder;
+	private String sortColumn;
+	private Condition conditions;
 	
 	public BrowseRequest(){
 		

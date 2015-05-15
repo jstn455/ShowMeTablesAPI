@@ -20,8 +20,8 @@ public class TablesJSON extends BaseJSON implements Serializable{
 	public TablesJSON(ArrayList<Table> tables, boolean success, String message) {
 		super(success, message);
 		this.setTables(tables);
-		this.success = success;
-		this.message = message;
+		this.setSuccess(success);
+		this.setMessage(message);
 	}
 	public ArrayList<Table> getTables() {
 		return tables;

@@ -8,8 +8,8 @@ public class BaseJSON implements Serializable{
 	 * 
 	 */
 	private static final long serialVersionUID = -5208425418028296417L;
-	public boolean success = false;
-	public String message = "";
+	private boolean success = false;
+	private String message = "";
 	
 	public BaseJSON(boolean success, String message){ 
 		this.success = success;

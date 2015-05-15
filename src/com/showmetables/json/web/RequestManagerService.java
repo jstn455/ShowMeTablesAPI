@@ -51,4 +51,9 @@ public class RequestManagerService implements RequestManager{
 		return new VersionJSON(3);
 	}
 
+	@Override
+	public BaseJSON index() {
+		return new BaseJSON(true, "It worked! Use this URL.");
+	}
+
 }
